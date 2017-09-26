@@ -1,16 +1,17 @@
-# Leave-a-Like
-Make sure you leave-a-like! Simple extension for those who forget to leave likes under watched videos. No more forgetting!
+# Day/Night Twitter
+Switch Day/Night Mode automatically while surfing around on Twitter!
 
-![logo](logo_128x.png)
+![logo](logo.png)
 
 
 <h3><u>How to install?</u></h3>
 
-1. Download 'leavealike.crx'.
+1. Download 'DNTwi.crx'.
 2. Go to chrome://extensions and drag&drop the file to install the extension.
 3. Activate and you're ready to watch! Enjoy :P
 
-You can try it out here: http://ph0.xyz/OB2X ;D
+<br>
+(Modes switch between 7AM - 7PM)
 
 <br><br>
 <i>It was made for educational sake as one-day project under MIT License.</i>
