@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+
+  "name": "Day-Night Twitter",
+  "description": "Autonomous Day-Night Mode switcher for Twitter.",
+  "version": "1.0",
+  "author": "Mike Eling",
+  "icons": { "256": "logo.png" },
+
+  "browser_action": {
+    "matches": [ "https://twitter.com/*" ],  
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "https://twitter.com/*" ],  
+      "js": ["function_script.js"]  
+    }
+  ],
+  "background": {
+        "matches": [ "https://twitter.com/*" ],  
+        "scripts": ["background.js"]
+    },
+  "permissions": [
+    "tabs", "https://twitter.com/*"
+  ]
+     
+}
